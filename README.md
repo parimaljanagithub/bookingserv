@@ -42,3 +42,6 @@ Thank you very much for your time to take this test. Please upload this complete
 ## Reference doc
 - https://github.com/joelittlejohn/jsonschema2pojo/wiki/Reference#extends
 - https://github.com/joelittlejohn/jsonschema2pojo/wiki/Reference#type
+
+## H2B console link
+http://localhost:8080/h2-console/login.do?jsessionid=b7551d5e647a4fd5afb1d88728b08b8f
