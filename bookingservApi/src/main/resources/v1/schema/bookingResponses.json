@@ -1,0 +1,17 @@
+{
+  "title": "Booking responses ",
+  "description": "Entity for returning list of booking response",
+  "type": "object",
+  "properties": {
+    "dataCount": {
+      "description": "total data count",
+      "type": "integer"
+    },
+    "bookings": {
+      "type": "array",
+      "items" : {
+        "$ref": "bookingResponse.json"
+      }
+    }
+  }
+}

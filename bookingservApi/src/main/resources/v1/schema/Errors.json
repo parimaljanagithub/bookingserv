@@ -1,0 +1,13 @@
+{
+  "title": "Erros",
+  "description": "Entity for Error response",
+  "type": "object",
+  "properties": {
+    "errorset": {
+      "type": "array",
+      "items" : {
+        "$ref": "ErrorInfo.json"
+      }
+  }
+  }
+}

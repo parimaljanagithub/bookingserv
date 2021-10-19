@@ -1,0 +1,30 @@
+{
+  "title": "Error info",
+  "description": "Entity for Error response",
+  "type": "object",
+  "properties": {
+    "errorCode": {
+      "description": "error code",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "shortMessage": {
+      "description": "short message",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "longMessage": {
+      "description": "long message",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 255
+    }
+  },
+  "required": [
+    "errorCode",
+    "shortMessage",
+    "longMessage"
+  ]
+}
